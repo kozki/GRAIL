@@ -166,27 +166,45 @@ Layout
     /* ==========================================================================
 Preloader Style
 ========================================================================== */
-.preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 999999;
-  background: #24242a;
+#preloader{
+    position:relative;
+    width: 42px;
+    height: 42px;
+    animation: preloader 5s infinite linear;
 }
-.preloader i {
-  color: #fff;
-  position: absolute;
-  font-size: 36px;
-  line-height: 36px;
-  top: 50%;
-  left: 50%;
-  height: 36px;
-  width: 36px;
-  margin-top: -15px;
-  margin-left: -15px;
-  display: inline-block;
+#preloader span{
+    width:20px;
+    height:20px;
+    position:absolute;
+    background:red;
+    display:block;
+    animation: preloader_span 1s infinite linear;
+}
+#preloader span:nth-child(1){
+background:#2ecc71;
+ 
+}
+#preloader span:nth-child(2){
+left:22px;
+background:#9b59b6;
+    animation-delay: .2s;
+ 
+}
+#preloader span:nth-child(3){
+top:22px;
+background:#3498db;
+    animation-delay: .4s;
+}
+#preloader span:nth-child(4){
+top:22px;
+left:22px;
+background:#f1c40f;
+    animation-delay: .6s;
+}
+@keyframes preloader_span {
+   0% { transform:scale(1); }
+   50% { transform:scale(0.5); }
+   100% { transform:scale(1); }
 }
 
     /* ==========================================================================
@@ -578,8 +596,9 @@ Testimonials Style
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 200px 0;
+  padding: 300px 0;
   text-align: center;
+  color: #351356;
 }
 #testimonials h2 {
   text-transform: uppercase;

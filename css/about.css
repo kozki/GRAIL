@@ -1,0 +1,315 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+/* ==========================================================================
+Global Styles
+========================================================================== */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #0d0d0d;
+  overflow-x: hidden;
+}
+
+.sep {
+  max-width: 80px;
+  border: 2px solid #0d0d0d;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.light-sep {
+  max-width: 80px;
+  border: 2px solid #fff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* ==========================================================================
+Typography
+========================================================================== */
+h1 {
+  font-size: 72px;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0.16em;
+}
+
+h2 {
+  font-size: 36px;
+  color: #000;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+h3 {
+  font-size: 26px;
+  color: #000;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 24px;
+  color: #000;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 18px;
+  color: #000;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+p {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+}
+
+/* ==========================================================================
+Buttons Styles
+========================================================================== */
+.btn-transparent {
+  background: transparent;
+  border: 3px solid #fff;
+  padding: 15px 30px;
+  font-size: 14px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  color: #fff;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.btn-transparent:hover,
+.btn-transparent:focus,
+.btn-transparent:active {
+  background: #fff;
+  color: #0d0d0d;
+  text-decoration: none;
+}
+
+.btn-light {
+  background: #fff;
+  border: 3px solid #fff;
+  padding: 15px 30px;
+  font-size: 14px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  color: #0d0d0d;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-block {
+  background: #24242a;
+  padding: 15px 0;
+  font-size: 16px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  color: #fff;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 3px solid #24242a;
+}
+
+.btn-block:hover,
+.btn-block:focus,
+.btn-block:active {
+  background: #fff;
+  color: #0d0d0d;
+  text-decoration: none;
+}
+
+/* ==========================================================================
+Layout 
+========================================================================== */
+.dark-bg {
+  background: #24242a;
+}
+
+.light-bg {
+  background: #fff;
+}
+
+    /* ==========================================================================
+Navigation Style
+========================================================================== */
+.navbar-default {
+  background: rgba(13, 13, 13, 0.6);
+  margin-bottom: 0;
+  border: none;
+}
+.navbar-default .navbar-header {
+  width: 28%;
+  padding-right: 15px;
+}
+.navbar-default .nav-wrap {
+  width: 50%;
+}
+.navbar-default .nav > li > a {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 35px 15px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus,
+.navbar-default .nav > li > a:active {
+  color: #a3a3a3;
+}
+.navbar-default .social-media {
+  float: right;
+  padding: 0 15px;
+}
+.navbar-default .social-media i {
+  font-size: 22px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background: transparent;
+  color: #a3a3a3;
+}
+
+.top-nav-collapse {
+  background: #24242a;
+}
+.top-nav-collapse .navbar-brand {
+  height: auto;
+}
+.top-nav-collapse .navbar-brand img {
+  width: 52px;
+  height: 52px;
+}
+.top-nav-collapse .nav > li > a {
+  padding: 30px 15px;
+}
+
+    /* ==========================================================================
+Testimonials Style
+========================================================================== */
+#testimonials {
+  background-image: url("../img/testimonials/Testimonials.jpg");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 500px 0;
+  text-align: center;
+}
+#testimonials h2 {
+  text-transform: uppercase;
+  color: #fff;
+}
+#testimonials .item .quote {
+  margin: 20px auto;
+  width: 80%;
+}
+#testimonials .item .quote .right {
+  margin-left: 40px;
+  font-size: 32px;
+  color: #fff;
+}
+#testimonials .item .quote .left {
+  float: left;
+  margin-right: 40px;
+  color: #fff;
+}
+#testimonials .item h5 {
+  color: #fff;
+  line-height: 36px;
+}
+#testimonials .item h5 span {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#testimonials .owl-pagination .owl-page.active span {
+  background-color: #fff;
+}
+#testimonials .owl-pagination .owl-page span {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: transparent;
+  opacity: 1;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+ 
+    /* ==========================================================================
+Footer Map Style
+========================================================================== */
+footer {
+  background: #24242a;
+  padding: 20px 0;
+  text-align: center;
+}
+footer h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+footer .social {
+  margin: 40px 0;
+}
+footer .social a {
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+footer .social a:hover,
+footer .social a:focus,
+footer .social a:active {
+  color: #a3a3a3;
+}
+footer h6 {
+  text-transform: uppercase;
+  color: #fff;
+}
+

@@ -578,14 +578,11 @@ Testimonials Style
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 60px 0;
+  padding: 200px 0;
   text-align: center;
 }
 #testimonials h2 {
   text-transform: uppercase;
-  color: #fff;
-}
-#testimonials p {
   color: #fff;
 }
 #testimonials .item .quote {
